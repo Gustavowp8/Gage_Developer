@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#9929ea, #5808fb);
+    font-family: 'Fredoka', sans-serif;
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.gus img{
+    width: 150px;
+}
+
+.gus{
+    margin: auto;
+    margin-top: 10%;
+    max-width: 500px;
+    height: 300px;
+    text-align: center;
+    background: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.entar{
+    width: 50px;
+    margin: auto;
+    background: linear-gradient(#0dccff, #4760ff);
+    padding: 5px;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.entar:hover{
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.entar a {
+    text-decoration: none;
+    color: white;
+}
+
+@media(max-width: 600px){
+    .gus{
+        margin: 10px;
+        margin-top: 30%;
+    }
+}
