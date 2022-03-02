@@ -173,6 +173,7 @@ cursor: pointer;
     width: 100%;
     height: 100%;
     transition: .5s;
+    z-index: 2000;
 }
 .fer1{
     margin: auto;
