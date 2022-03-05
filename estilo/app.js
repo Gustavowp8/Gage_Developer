@@ -21,3 +21,14 @@ function toggleMenu(){
 }
 
 btnMobile.addEventListener('click', toggleMenu);
+
+/*========= POPUP ==========*/
+
+function chamaSimples(){
+    info.style.display='block'
+}
+
+function fechaSimples(){
+    info.style.display='none'
+}
+/*========= POPUP ==========*/

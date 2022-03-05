@@ -3,7 +3,8 @@
 body{
     margin: 0;
     padding: 0;
-    background: linear-gradient(#9929ea, #5808fb);
+    /*background: linear-gradient(#9929ea, #5808fb);*/
+    background: #ffffff;
     font-family: 'Fredoka', sans-serif;
     height: 100%;
     margin: 0;
@@ -74,7 +75,7 @@ a:hover{
     padding: 1rem;
     align-items: center;
     justify-content: space-around;
-
+    border-bottom: 1px solid rgba(0, 0, 0, 0.338);
     border-top: 5px solid #8E72DC;
 }
 .menu{
@@ -232,7 +233,7 @@ cursor: pointer;
 /*==============*/
 
 #tTitulos{
-    color: #ffffff;
+    color: #132743;
     margin-top: 100px;
     text-align: center;
 }
@@ -274,17 +275,110 @@ cursor: pointer;
 }
 
 /*=============*/
+
+/*======= popup ========*/
+.info{
+    display: none;
+    background: rgba(0, 0, 0, 0.55);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.info1{
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    max-width: 500px;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 15px;
+    color: #ffffff;
+    border: 2px solid rgba(255, 255, 255, 0.29);
+}
+
+.info1 p, h3{
+    margin: 10px;
+    margin-bottom: 15px;
+}
+
+.info1 h3{
+    text-align: center;
+}
+
+.infofecha{
+    background: #db1d4b;
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#fecha{
+    border: 1px solid white;
+    border-radius: 5px;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+/*======= popup ========*/
+
+/*================*/
+
+.siteApp{
+   
+    margin: auto;
+    margin-top: 100px;
+    max-width: 590px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: minmax(150px, 250px) 1fr;
+
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.674);
+    border-radius: 15px;
+}
+
+#appum video{
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+#appdois{
+    background: #db1d4b;
+    padding: 10px;
+    text-align: center;
+    color: #ffffff;
+
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/*=============*/
 @media(max-width: 1090px){
+
+    .onteiner{
+        
+    }
+
     .flex{
         display: flex;
         flex-wrap: nowrap;
-        overflow: scroll;
         padding: 30px;
+        overflow: scroll;
         scroll-snap-type: x mandatory;
     }
     .flex > div{
-        position: relative;
+        /*position: relative;*/
         flex: 1 0 270px;
+        margin-left: 20px;
         scroll-snap-type: start;
     }
     .flex > div:hover{
@@ -436,5 +530,10 @@ cursor: pointer;
     }
     #parteDois{
         margin: auto;
+    }
+
+    .info1{
+        margin: 10px;
+        margin-top: 10%;
     }
 }
