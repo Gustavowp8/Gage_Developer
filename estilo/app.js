@@ -1,5 +1,6 @@
 function entrar(){
     alert('Em manutenção!')
+    location='pagina01.html'
 }
 
 function fechaEntra(){

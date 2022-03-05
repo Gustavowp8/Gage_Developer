@@ -28,25 +28,23 @@ body{
 }
 
 .entar{
-    width: 50px;
-    margin: auto;
+    color: black;
     background: linear-gradient(#0dccff, #4760ff);
-    padding: 5px;
-    padding-left: 60px;
-    padding-right: 60px;
-    border-radius: 20px;
+    padding: 1px; 
+    margin: 10px;
+    border-radius: 15px;
     cursor: pointer;
-    transition: .5s;
 }
-
 .entar:hover{
     padding-left: 80px;
     padding-right: 80px;
 }
 
-.entar a {
+.entar p {
     text-decoration: none;
     color: white;
+    font-weight: bold;
+    cursor: pointer;
 }
 
 /* parte do menu*/
