@@ -204,10 +204,42 @@ cursor: pointer;
     cursor: pointer;
 }
 
-@media(max-width: 600px){
+
+/*==== CAPA =======*/
+
+.capa{
+    background: #132743;
+    color: #ffffff;
+    display: grid;
+    grid-template-columns: minmax(150px, 250px) 1fr;
+    margin: 15px;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.27);
+}
+
+.capa img{
+    width: 200px;
+}
+
+#parteDois{
+    border-radius: 15px;
+    margin-right: 20px;
+    text-align: center;
+}
+/*==== CAPA =======*/
+@media(max-width: 900px){
+    #sant{
+        margin-right: 10px;
+        margin-left: 80px;
+    }
+}
+
+
+@media(max-width: 800px){
     .gus{
         margin: 10px;
-        margin-top: 30%;
+        margin-top: 10%;
     }
 
     #gratis{
@@ -323,5 +355,21 @@ cursor: pointer;
     .fer1{
         margin: 10px;
         margin-top: 25%;
+    }
+
+    /*============*/
+    .capa{
+        background: #132743;
+        color: #ffffff;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        margin: 15px;
+        border-radius: 15px;
+        padding: 10px;
+        box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.27);
+    }
+    #parteDois{
+        margin: auto;
     }
 }
