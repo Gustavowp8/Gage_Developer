@@ -228,6 +228,71 @@ cursor: pointer;
     text-align: center;
 }
 /*==== CAPA =======*/
+
+/*==============*/
+
+#tTitulos{
+    color: #ffffff;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1090px;
+    margin: auto;
+}
+.flex p{
+    text-align: left;
+}
+
+.flex > div{
+    background: #132743;
+    flex: 1 0 150px;
+    margin: 10px;
+    padding: 8px;
+    text-align: center;
+    border-radius: 15px;
+    color: #ffffff;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.27);
+
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.flex > div:hover{
+    -webkit-transform: scale(0.5);
+    transform: scale(1.1);
+}
+
+#tTituloFlex{
+    background: #db1d4b;
+    padding: 0.5rem;
+    margin: 10px;
+    border-radius: 15px;
+}
+
+/*=============*/
+@media(max-width: 1090px){
+    .flex{
+        display: flex;
+        flex-wrap: nowrap;
+        overflow: scroll;
+        padding: 30px;
+        scroll-snap-type: x mandatory;
+    }
+    .flex > div{
+        position: relative;
+        flex: 1 0 270px;
+        scroll-snap-type: start;
+    }
+    .flex > div:hover{
+        -webkit-transform: scale(0.1);
+        transform: scale(1.1);
+    }
+}
+
 @media(max-width: 900px){
     #sant{
         margin-right: 10px;
