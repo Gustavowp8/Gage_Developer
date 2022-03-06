@@ -33,3 +33,35 @@ function fechaSimples(){
     info.style.display='none'
 }
 /*========= POPUP ==========*/
+
+
+/*======= BASICO ========*/
+function chamaBasico(){
+    infoB.style.display='block'
+}
+
+function fechaBasico(){
+    infoB.style.display='none'
+}
+/*======= BASICO ========*/
+
+
+/*======= COMPLETO ========*/
+function chamaComplet(){
+    infoC.style.display='block'
+}
+
+function fechaCompleto(){
+    infoC.style.display='none'
+}
+/*======= COMPLETO ========*/
+
+/* ====== FLEX ===========*/
+function chamaFlex(){
+    infoD.style.display='block'
+}
+
+function fechaFlex(){
+    infoD.style.display='none'
+}
+/* ====== FLEX ===========*/
