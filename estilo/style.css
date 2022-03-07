@@ -488,7 +488,41 @@ cursor: pointer;
       border-radius: 15px;;
   }
   /*====Aplicativos =====*/
-  
+
+  .aplic img{
+      width: 100%;
+  }
+
+  .aplic{
+      background: #212129;
+      display: flex;
+      flex-wrap: wrap;
+      color: white;
+  }
+
+  .aplic > div{
+      max-width: 600px;
+  }
+
+  .conhecerApp{
+      text-align: center;
+      align-items: center;
+      margin: auto;
+      background-image: linear-gradient(to right, #4f809d, #3957ed);
+      box-shadow: 1px 1px  5px rgba(255, 255, 255, 0.27);
+      padding: 5px;
+      border-radius: 15px;
+      margin-left: 50px;
+      margin-right: 50px;
+      cursor: pointer;
+      transition: .5s;
+  }
+
+  .conhecerApp:hover{
+    transition: .5s;
+    background-image: linear-gradient(to right, #3957ed, #4f809d);
+  }
+    
 @media(max-width: 1090px){
 
     .onteiner{
@@ -514,10 +548,19 @@ cursor: pointer;
     }
 }
 
+@media(max-width: 1500px){
+
+}
+
 @media(max-width: 900px){
     #sant{
         margin-right: 10px;
         margin-left: 80px;
+    }
+    .aplic > div{
+        margin: auto;
+        padding: 10px;
+        padding-bottom: 50px;
     }
 }
 
@@ -728,5 +771,10 @@ cursor: pointer;
         align-items: center;
         padding: 10px;
         margin: auto;
+    }
+    .aplic > div{
+        margin: auto;
+        padding: 10px;
+        padding-bottom: 50px;
     }
 }
