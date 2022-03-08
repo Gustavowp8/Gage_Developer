@@ -1,8 +1,6 @@
 function entrar(){
-    alert('Em manutenção!')
     location='pagina01.html'
 }
-
 function fechaEntra(){
     fer.style.display='none'
 }
@@ -13,7 +11,7 @@ function abirAviso(){
 function continuaPro(){
     location='Login_v1/index.html';
 }
-/*
+
 const btnMobile = document.getElementById('btn-mobile');
 
 function toggleMenu(){
@@ -22,7 +20,7 @@ function toggleMenu(){
 }
 
 btnMobile.addEventListener('click', toggleMenu);
-*/
+
 /*========= POPUP ==========*/
 
 function chamaSimples(){
