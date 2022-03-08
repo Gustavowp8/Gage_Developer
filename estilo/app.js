@@ -13,7 +13,7 @@ function abirAviso(){
 function continuaPro(){
     location='Login_v1/index.html';
 }
-
+/*
 const btnMobile = document.getElementById('btn-mobile');
 
 function toggleMenu(){
@@ -22,7 +22,7 @@ function toggleMenu(){
 }
 
 btnMobile.addEventListener('click', toggleMenu);
-
+*/
 /*========= POPUP ==========*/
 
 function chamaSimples(){
@@ -66,16 +66,6 @@ function fechaFlex(){
 }
 /* ====== FLEX ===========*/
 
-/*==== Aplicativos =====*/
-var swiper = new Swiper(".mySwiper", {
-    effect: "flip",
-    grabCursor: true,
-    pagination: {
-      el: ".swiper-pagination",
-    },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
-    },
-  });
-/*==== Aplicativos =====*/
+function conharApp(){
+    location='aplicacao.html'
+}
