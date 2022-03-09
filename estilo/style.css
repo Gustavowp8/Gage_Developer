@@ -11,6 +11,9 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+#body2{
+    background: #191c6d;
+}
 
 .gus img{
     width: 150px;
@@ -74,7 +77,6 @@ a:hover{
     align-items: center;
     justify-content: space-around;
     border-bottom: 1px solid rgba(0, 0, 0, 0.338);
-    border-top: 5px solid #8E72DC;
 }
 .menu{
     
@@ -234,6 +236,12 @@ cursor: pointer;
     color: #132743;
     margin-top: 100px;
     text-align: center;
+}
+
+#tTitulos2{
+    margin-top: 100px;
+    text-align: center;
+    color: #ffffff;
 }
 
 .flex{
@@ -569,6 +577,36 @@ cursor: pointer;
 
    /*====Mine site======*/
 
+   /*=====SitesGage=====*/
+
+   .siteCapa{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #ffffff;
+   }
+
+   .siteCapa >div{
+       flex: 1 1 250px;
+   }
+
+   .siteCapa img{
+    width: 100%;
+}
+
+#planosDeSites{
+    background: white;
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+    
+   /*=====SitesGage=====*/
+
   footer{
       background: black;
       color: white;
@@ -835,5 +873,9 @@ cursor: pointer;
         margin: auto;
         padding: 10px;
         padding-bottom: 50px;
+    }
+    #tTextodiv{
+        text-align: center;
+        margin: 10px;
     }
 }
