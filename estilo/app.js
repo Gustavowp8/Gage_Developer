@@ -67,3 +67,18 @@ function fechaFlex(){
 function conharApp(){
     location='aplicacao.html'
 }
+function planonoWhast(){
+    alert('Você sera direcionado ao WhatsApp')
+    location='https://api.whatsapp.com/send?phone=5561995084318&text=Ol%C3%A1%20Gage%2C'
+}
+
+function colaboracao(){
+    alert('O colabora abrirá inscrições dia 15/08/2022')
+}
+
+function autoElacora(){
+    alert('A equipe de automação não está aceitando novos clientes no momento!')
+}
+function sabermaisDeSite(){
+    location='sitesGage.html'
+}

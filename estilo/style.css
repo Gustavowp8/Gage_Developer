@@ -625,6 +625,33 @@ cursor: pointer;
     padding-left: 50px;
     padding-right: 50px;
 }
+
+.chamaNoWhast{
+    color: #ffffff;
+    max-width: 220px;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 15px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.42);
+    background-image: linear-gradient(to bottom right, #4affde 0%, #5b9dff 40%, #d06bff 60%, #ff34d2 100%);
+    background-size: 200% 200%;
+    animation: movingGradient 5s linear infinite alternate;
+}
+@keyframes movingGradient{
+    from { background-position: 0 0;}
+    to { background-position: 100% 100%;}
+}
+
+#sabersobreomine{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
    /*=====SitesGage=====*/
 
   footer{
