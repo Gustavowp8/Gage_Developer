@@ -604,7 +604,27 @@ cursor: pointer;
     padding-right: 50px;
 }
 
-    
+.menorSite{
+    max-width: 400px;
+    background: white;
+    text-align: center;
+    padding: 10px;
+    border-radius: 15px;
+    margin: auto;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.215);
+}
+.menorSite P{
+    text-align: left;
+}
+.menorSite a{
+    background: #067eed;
+    font-weight: bold;
+    padding: 10px;
+    color: white;
+    border-radius: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
    /*=====SitesGage=====*/
 
   footer{
