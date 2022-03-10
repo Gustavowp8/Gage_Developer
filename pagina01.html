@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="arquivos/imagens/logoFavicon.png" type="image/x-icon">
     <link rel="stylesheet" href="estilo/style.css">
+    <link
+      rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <title>Gage</title>
 </head>
 <body>
@@ -32,6 +34,27 @@
         </nav>
 
     </header>
+
+    <div class="fotosSlides">
+
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img class="imagSlide" src="arquivos/imagens/capa01.png"></div>
+              <div class="swiper-slide"><img class="imagSlide" src="arquivos/imagens/capa02.png"></div>
+              <div class="swiper-slide"><img class="imagSlide" src="arquivos/imagens/capa03.png"></div>
+              <div class="swiper-slide"><img class="imagSlide" src="arquivos/imagens/capa04.png"></div>
+              <div class="swiper-slide"><img class="imagSlide" src="arquivos/imagens/capa05.png"></div>
+              <div class="swiper-slide"><img class="imagSlide" src="arquivos/imagens/capa06.png"></div>
+              <div class="swiper-slide"><img class="imagSlide" src="arquivos/imagens/capa07.png"></div>
+              <div class="swiper-slide"><img class="imagSlide" src="arquivos/imagens/capa08.png"></div>
+              <div class="swiper-slide"><img class="imagSlide" src="arquivos/imagens/capa09.png"></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+    </div>
 
     <div class="fer" id="fer">
         <div class="fer1">
@@ -365,8 +388,27 @@
         <p>Sobre a gente</p>
     </footer>
     <!--====== Aplicativos ======-->
-    
+
+
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script src="estilo/app.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          spaceBetween: 30,
+          centeredSlides: true,
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
 </body>
 </html>
