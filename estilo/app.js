@@ -79,6 +79,10 @@ function colaboracao(){
 function autoElacora(){
     alert('A equipe de automação não está aceitando novos clientes no momento!')
 }
-function sabermaisDeSite(){
+function planosfer(){
     location='sitesGage.html'
+}
+
+function chamacolacora(){
+    alert('Indisponivel')
 }
