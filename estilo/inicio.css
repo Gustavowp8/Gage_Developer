@@ -269,6 +269,24 @@ footer p{
         margin-top: 100px;
         height: auto;
         grid-template-columns:none;
-        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.674);
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.674); 
+    }
+    #appdois{
+        background: #db1d4b;
+        text-align: center;
+        color: #ffffff;
+        
+        align-items: center;
+        padding: 10px;
+        margin: auto;
+    }
+    .aplic > div{
+        margin: auto;
+        padding: 10px;
+        padding-bottom: 50px;
+    }
+    #tTextodiv{
+        text-align: center;
+        margin: 10px;
     }
   }
