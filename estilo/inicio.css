@@ -260,4 +260,15 @@ footer p{
     #contatoText{
         margin-top: -50px;
     }
+    .siteApp{
+        display: flex;
+        flex-wrap: wrap;
+        margin: 15px;
+        background: #db1d4b;
+        width: auto;
+        margin-top: 100px;
+        height: auto;
+        grid-template-columns:none;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.674);
+    }
   }
