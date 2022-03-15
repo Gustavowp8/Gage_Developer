@@ -1,113 +1,69 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&display=swap');
 
 body{
     margin: 0;
     padding: 0;
     font-family: 'Fredoka', sans-serif;
+    background: #eeeeee;
 }
 
-.capa img{
-    max-width: 550px;
-    
+#bodyPanos{
+    background: #0085ff;
 }
-.capa{
-    background: #56c6ff;
+
+.header img{
+    width: 110px;
+    height: 47px;
+}
+
+#perfil{
+    width: 40px;
+    height: 40px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+#perfil:houver{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+.header{
+    background: #ffffff;
     display: flex;
-    flex-wrap: wrap;
-    padding: 10px;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.boasVindas{
+    margin: 10px;
+    max-width: 800px;
+    text-shadow: 5px 5px 1px #ffffff53;
+    margin-bottom: 90px;
 }
 
-.testo{
-    color: white;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.331);
-    max-width: 500px;
-    padding-bottom: -11px;
-    padding: 10px;
+.carrosel{
+    max-width: 800px;
+    margin: auto;
 }
-
-.container{
-    display: inline-flex;
-}
-.container .estatico{
-    color: white;
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.331);
-    font-size: 60px;
-    font-weight: 400;
-}
-
-.container .dinamico{
-    margin-left: 15px;
-    line-height: 90px;
-    height: 90px;
-    overflow: hidden;
-}
-
-.dinamico li{
-    font-family: 'Fredoka', sans-serif;
-    color: #135A92;
-    list-style: none;
-    font-size: 60px;
-    font-weight: 200;
-    font-weight: bold;
-    left: 0;
-    position: relative;
-    top: 0;
-    animation: slide 6s steps(4) infinite;
-}
-@keyframes slide{
-    100%{
-        top: -360px;
-    }
-}
-.dinamico li span::after{
-    content: "";
-    position: absolute;
+.carrosel2{
     width: 100%;
-    height: 100%;
-    left: 0;
-    border-left: 2px solid black;
-    animation: typing 1.5s steps(10) infinite;
-    background: #56c6ff;
+    aspect-ratio: 16/9;
 }
 
-.dinamico li span{
-    position: relative;
-}
-@keyframes typing{
-    100%{
-        left: 100%;
-        margin: 0 -35px 0 35px;
-    }
-}
-
-.planos{
-    background: #56c6ff;
-    padding: 10px;
-    text-align: center;
-}
-.planos h4{
-    background: white;
-    margin: 15px;
-    padding: 5px;
-    border-radius: 15px;
-}
-
-.fotosSlides{
-    width: 100%;
-    /*max-width: 851px;*/
-    height: 315px;
-}
 .swiper {
     width: 100%;
     height: 100%;
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.167);
+    border-radius: 15px;
   }
 
   .swiper-slide {
     text-align: center;
     font-size: 18px;
-    background: #fff;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 15px;
+    
 
     /* Center slide text vertically */
     display: -webkit-box;
@@ -129,81 +85,390 @@ body{
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 15px;
   }
 
-  .miniSite{
-      background: #F2F2F2;
+  .autom{
+      margin-top: 150px;
+      max-width: 800px;
+      margin: auto;
+      /*background: red;*/
   }
 
-  .guas{
-      display: flex;
-      text-align: center;
-      justify-content: center;
-  }
-
-  #contatoText{
-      max-width: 500px;
-      top: 50%;
-  }
-  #contatoText h2{
-      margin-top: 20%;
-  }
-
-  .guas video{
-      width: 100%;
-      border-radius: 15px;
-  }
-  .guas > div{
-    padding: 5px;
-  }
-
-  .chamapeca{
-      text-align: center;
-      background: #F2F2F2;
-      padding: 2px;
-  }
-  .chamapeca h4{
-      background: #ffffff;
-      padding: 5px;
-      margin: 15px;
-      border-radius: 15px;
-      box-shadow: 5px 5px 5px 1px #a6a6a677;
-  }
-
-  .aplic img{
-    width: 100%;
-}
-
-.aplic{
-    background: #212129;
+  .autom1 {
+   /* background: blue;*/
     display: flex;
     flex-wrap: wrap;
-    color: white;
-    padding: 5px;
-}
+  }
 
-.aplic > div{
-    max-width: 600px;
-}
-
-.conhecerApp{
+  .autom1 h1{
+      text-align: center;
+  }
+  .autom1 h2{
     text-align: center;
-    align-items: center;
-    margin: auto;
-    background-image: linear-gradient(to right, #4f809d, #3957ed);
-    box-shadow: 1px 1px  5px rgba(255, 255, 255, 0.27);
-    padding: 10px;
-    border-radius: 15px;
-    margin-left: 50px;
-    margin-right: 50px;
+}
+  .autom1 > div{
+      flex: 1 0 120px;
+      background: #ffffff;
+      box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.167);
+      margin: 10px;
+      padding: 10px;
+      border-radius: 15px;
+  }
+  #colorGrad{
+      color: #ffffff;
+      background-image: linear-gradient(
+        to bottom right,
+         #9929ea 0%, #5808fb 40%, #bc4e9c 60%, #f8286f 100%);
+      background-size: 200% 200%;
+      animation: movingGradient 5s linear infinite alternate;
+  }
+  @keyframes movingGradient{
+      from {background-position: 0 0;}
+      to   {background-position: 100% 100%;}
+  }
+
+  .menuBaixo{
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+  }
+
+  .menuBaixo2{
+      background-color: #ffffff10;
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      margin: 5px;
+      margin-left: 10px;
+      margin-right: 10px;
+      padding: 5px;
+      border-radius: 15px;
+      display: flex;
+      justify-content: space-around;
+      border: 1px solid #ffffff89;
+  }
+
+  .menuBaixo2 img{
+      width: 30px;
+      height: 30px;
+      transition: all 0.5s;
     cursor: pointer;
-    transition: .5s;
+  }
+  .menuBaixo2 img:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+  }
+
+  #selecionado{
+      border-bottom: 3px solid #5808fb;
+      background: #FFFFFF;
+      border-radius: 5px;
+  }
+
+  .tTituloM{
+      text-align: center;
+  }
+  .tTituloB{
+    text-align: center;
+    color: white;
+}
+  .tenha{
+      /*background: blue;*/
+      max-width: 800px;
+      margin: auto;
+      padding: 5px;
+  }
+  .tenha1{
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 15px;
+  }
+
+  iframe{
+      width: 100%;
+      height: 100%;
+      border-radius: 15px;
+      box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.167);
+  }
+
+  .sPlanos{
+      max-width: 800px;
+      margin: auto;
+      padding: 10px;
+  }
+
+  .splanos2 img{
+      width: 90px;
+  }
+
+  .splanos2{
+    display: grid;
+    grid-template-columns: minmax(100px, 250px) 1fr;
+    border: 1px solid rgba(0, 0, 0, 0.304);
+    border-radius: 15px;
+  }
+
+  #planoImg{
+      background: #9929ea;
+      text-align: center;
+      align-items: center;
+      padding: 10px;
+      transition: all 0.5s;
+        cursor: pointer;
+        border-radius: 15px;
+  }
+
+  #planoImg:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+  }
+
+  #planosTexto{
+      background: #0085ff;
+      padding: 10px;
+      text-align: center;
+      border-radius: 15px;
+      color: #ffffff;
+  }
+
+  .auto{
+    max-width: 800px;
+    margin: auto;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-image: url(../arquivos/imagens/automação.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px;
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+  }
+
+  .auto1{
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius: 15px;
+    color: #ffffff;
+    text-align: center;
+    margin: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.468);
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+  }
+
+  .auto1 a{
+      background: #0085ff;
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+      border-radius: 15px;
+      padding-left: 30px;
+      padding-right: 30px;
+      margin-top: 10px;
+  }
+
+  /*====== Planos ======*/
+
+  .planosDis{
+      max-width: 800px;
+      margin: auto;
+      color: white;
+      text-align: center;
+  }
+  .planosDis p{
+      margin-top: -5px;
+      cursor: pointer;
+  }
+
+  .planosFlex{
+      max-width: 850px;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .planosFlex > div{
+      flex: 1 0 150px;
+      color: white;
+      margin: 10px;
+      background: #23374d;
+      padding: 10px;
+      border-radius: 15px;
+      text-align: center;
+  }
+
+  .conecGe p{
+      background: #ffffff;
+      color: black;
+      padding: 5px;
+      border-radius: 15px;
+      cursor: pointer;
+  }
+
+  /*====== Planos ======*/
+
+  /*======= popup ========*/
+.info{
+    display: none;
+    overflow: auto;
+    background: rgba(0, 0, 0, 0.55);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
 }
 
-.conhecerApp:hover{
-  transition: .5s;
-  background-image: linear-gradient(to right, #3957ed, #4f809d);
+.info1{
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    max-width: 500px;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 15px;
+    color: #ffffff;
+    border: 2px solid rgba(255, 255, 255, 0.29);
 }
+
+.info1 p, h3{
+    margin: 10px;
+    margin-bottom: 15px;
+}
+
+.info1 h3{
+    text-align: center;
+}
+
+.infofecha{
+    background: #db1d4b;
+    display: flex;
+    justify-content: space-around;
+    color: #ffffff;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#fecha{
+    border: 1px solid white;
+    border-radius: 5px;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+/*======= popup ========*/
+
+/*========== POU UP BASICO ============*/
+
+.infoB{
+    display: none;
+    overflow: auto;
+    background: rgba(0, 0, 0, 0.55);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.info1B{
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    max-width: 500px;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 15px;
+    color: #ffffff;
+    border: 2px solid rgba(255, 255, 255, 0.29);
+}
+
+.info1B p, h3{
+    margin: 10px;
+    margin-bottom: 15px;
+}
+
+.info1B h3{
+    text-align: center;
+}
+
+/*========== POU UP BASICO ============*/
+
+/*==== Completo ======*/
+
+.infoC{
+    display: none;
+    overflow: auto;
+    background: rgba(0, 0, 0, 0.55);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.info1C{
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    max-width: 500px;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 15px;
+    color: #ffffff;
+    border: 2px solid rgba(255, 255, 255, 0.29);
+}
+
+.info1C p, h3{
+    margin: 10px;
+    margin-bottom: 15px;
+}
+
+.info1C h3{
+    text-align: center;
+}
+/*==============*/
+
+.infoD{
+    display: none;
+    overflow: auto;
+    background: rgba(0, 0, 0, 0.55);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+
+.info1D{
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    max-width: 500px;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 15px;
+    color: #ffffff;
+    border: 2px solid rgba(255, 255, 255, 0.29);
+}
+
+.info1D p, h3{
+    margin: 10px;
+    margin-bottom: 15px;
+}
+
+.info1D h3{
+    text-align: center; 
+}
+
+/*================*/
 
 .siteApp{
     margin: auto;
@@ -214,7 +479,6 @@ body{
     grid-template-columns: minmax(150px, 250px) 1fr;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.674);
     border-radius: 15px;
-    margin-bottom: 30px;
 }
 
 #appum video{
@@ -232,61 +496,31 @@ body{
     border-bottom-right-radius: 15px;
 }
 
-footer{
-    font-family: 'Fredoka', sans-serif;
-    background: black;
-    color: white;
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    flex-wrap: wrap;
-}
-footer p{
-    margin: 10px;
-    cursor: pointer;
-}
+/*==============*/
+
 
   @media(max-width: 600px){
-    .container{
+
+    .splanos2{
+        display: block;
+        grid-template-columns: none;
+        width: 100%;
+        border: 1px solid black;
+        border-radius: 15px;
+      }
+    #planoImg{
         display: none;
     }
-    .capa img{
-        width: 100%;
-    }
-    .guas{
-        display: flex;
-        flex-wrap: wrap;
-    }
-    #contatoText{
-        margin-top: -50px;
-    }
-    .siteApp{
-        display: flex;
-        flex-wrap: wrap;
-        margin: 15px;
-        background: #db1d4b;
+    #planosTexto{
+        margin: auto;
         width: auto;
-        margin-top: 100px;
-        height: auto;
-        grid-template-columns:none;
-        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.674); 
+        filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
     }
-    #appdois{
-        background: #db1d4b;
-        text-align: center;
-        color: #ffffff;
-        
-        align-items: center;
-        padding: 10px;
-        margin: auto;
+    .auto{
+        padding-top: 100px;
+        padding-bottom: 100px;
     }
-    .aplic > div{
-        margin: auto;
-        padding: 10px;
-        padding-bottom: 50px;
-    }
-    #tTextodiv{
-        text-align: center;
-        margin: 10px;
+    .planosDis{
+        margin: 15px;
     }
   }

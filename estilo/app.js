@@ -1,88 +1,75 @@
-function entrar(){
-    location='pagina01.html'
+function inicio(){
+ location='index.html'
 }
-function fechaEntra(){
-    fer.style.display='none'
+function planos(){
+  location='planos.html'
 }
-function abirAviso(){
-    fer.style.display='block'
+function sobre(){
+  location='sobre.html'
 }
-
-function continuaPro(){
-    location='Login_v1/index.html';
-}
-
-const btnMobile = document.getElementById('btn-mobile');
-
-function toggleMenu(){
-    const nav = document.getElementById('nav');
-    nav.classList.toggle('active')
+function faleConosco(){
+  location='faleConosco.html'
 }
 
-btnMobile.addEventListener('click', toggleMenu);
+/*====== Initialize Swiper ======*/
 
-/*========= POPUP ==========*/
+var swiper = new Swiper(".mySwiper", {
+    spaceBetween: 30,
+    centeredSlides: true,
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  });
+
+  /*====== Initialize Swiper ======*/
+  /*========= POPUP ==========*/
 
 function chamaSimples(){
-    info.style.display='block'
+  info.style.display='block'
 }
 
 function fechaSimples(){
-    info.style.display='none'
+  info.style.display='none'
 }
 /*========= POPUP ==========*/
 
 
 /*======= BASICO ========*/
 function chamaBasico(){
-    infoB.style.display='block'
+  infoB.style.display='block'
 }
 
 function fechaBasico(){
-    infoB.style.display='none'
+  infoB.style.display='none'
 }
 /*======= BASICO ========*/
 
 
 /*======= COMPLETO ========*/
 function chamaComplet(){
-    infoC.style.display='block'
+  infoC.style.display='block'
 }
 
 function fechaCompleto(){
-    infoC.style.display='none'
+  infoC.style.display='none'
 }
 /*======= COMPLETO ========*/
 
 /* ====== FLEX ===========*/
 function chamaFlex(){
-    infoD.style.display='block'
+  infoD.style.display='block'
 }
 
 function fechaFlex(){
-    infoD.style.display='none'
+  infoD.style.display='none'
 }
 /* ====== FLEX ===========*/
-
-function conharApp(){
-    location='aplicacao.html'
-}
-function planonoWhast(){
-    alert('Você sera direcionado ao WhatsApp')
-    location='https://api.whatsapp.com/send?phone=5561995084318&text=Ol%C3%A1%20Gage%2C'
-}
-
-function colaboracao(){
-    alert('O colabora abrirá inscrições dia 15/08/2022')
-}
-
-function autoElacora(){
-    alert('A equipe de automação não está aceitando novos clientes no momento!')
-}
-function planosfer(){
-    location='sitesGage.html'
-}
-
-function chamacolacora(){
-    alert('Indisponivel')
-}
