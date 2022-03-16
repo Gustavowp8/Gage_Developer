@@ -73,3 +73,10 @@ function fechaFlex(){
   infoD.style.display='none'
 }
 /* ====== FLEX ===========*/
+
+function fechaAvisoAut(){
+  tomac.style.display='none'
+}
+function chamaAvisoAut(){
+  tomac.style.display='block'
+}
