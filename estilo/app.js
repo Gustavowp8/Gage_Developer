@@ -95,3 +95,13 @@ function verificarPerfilUser(){
   
   alert('Indisponivel no momento')
 }
+
+function fecharpMINIS(){
+  minisitegage.style.display='none'
+}
+function chamaMiniPlano(){
+  minisitegage.style.display='block'
+}
+function planosMiniSite(){
+  location='planos.html'
+}
