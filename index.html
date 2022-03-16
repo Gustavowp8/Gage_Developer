@@ -18,7 +18,7 @@
 
     <h3>Inicio</h3>
 
-    <img id="perfil" src="arquivos/icones/do-utilizador.png" alt="perfil">
+    <img id="perfil" onclick="cahamarperfilUser()" src="arquivos/icones/do-utilizador.png" alt="perfil">
 
   </header>
   
@@ -101,6 +101,8 @@
 
   <br> <br> <br> <br>
 
+  <!--====== Aréa de popup ======-->
+
   <div class="tomac" id="tomac">
     <div class="tomac1">
       <img src="arquivos/icones/Attention_perspective_matte.png">
@@ -111,6 +113,29 @@
       <div class="tomacFechar" onclick="fechaAvisoAut()">FECHAR</div>
     </div>
   </div>
+
+  <!--=====================================-->
+
+  <div class="perfilUser" id="perfilUser">
+    <div class="perfilUser1">
+      <img src="arquivos/imagens/logoGage.png">
+      <h2>Área do cliente</h2>
+      <p>Esta área é destinada para clientes com serviços de pagamento mensal ou para clientes que desejam verificar o andamento de um serviço. </p>
+      <input type="text" name="tNome" id="tNome" placeholder="Digite seu nome ou email"> <br>
+      <input type="password" name="cSenha" id="cSenha" placeholder="Digite sua senha">
+
+      <div class="confirmarEnter" onclick="verificarPerfilUser()">
+        <p>CONFIRMAR</p>
+      </div> <br>
+
+      <div class="cancelarSair" onclick="fecharperfilUser()">
+        <p>CANCELAR</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!--====== Aréa de popup ======-->
 
   <div class="menuBaixo">
     <div class="menuBaixo2">

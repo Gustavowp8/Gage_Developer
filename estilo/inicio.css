@@ -499,6 +499,8 @@ body{
     border-bottom-right-radius: 15px;
 }
 
+/*====== aréa popup ======*/
+
 .tomac{
     display: none;
     overflow: auto;
@@ -533,6 +535,81 @@ body{
 }
 
 /*==============*/
+.perfilUser img{
+    width: 150px;
+}
+.perfilUser h2{
+    margin-top: -3px;
+}
+
+.perfilUser{
+    display: none;
+    overflow: auto;
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+.perfilUser1{
+    background: #ffffff;
+    max-width: 400px;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.674);
+}
+#tNome{
+    border: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.674);
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 10px;
+    border-radius: 15px;
+    outline: 0;
+}
+#cSenha{
+    border: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.674);
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: 10px;
+    border-radius: 15px;
+    outline: 0;
+}
+
+.confirmarEnter p{
+    background: #0085ff;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 15px;
+    color: #ffffff;
+    box-shadow: 3px 3px 3px #0084ff5d;
+    cursor: pointer;
+}
+
+.cancelarSair p{
+    margin-top: 15px;
+    background: red;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 15px;
+    color: #ffffff;
+    box-shadow: 3px 3px 3px rgba(255, 0, 0, 0.379);
+    cursor: pointer;
+}
+
+/*====== aréa popup ======*/
+
+/*==============*/
 
 
   @media(max-width: 600px){
@@ -562,5 +639,9 @@ body{
     .tomac1{
         margin: 10px;
         margin-top: 50%;
+    }
+    .perfilUser1{
+        margin: 10px;
+        margin-top: 20%;
     }
   }

@@ -80,3 +80,18 @@ function fechaAvisoAut(){
 function chamaAvisoAut(){
   tomac.style.display='block'
 }
+/*=============================*/
+
+function fecharperfilUser(){
+  perfilUser.style.display='none'
+}
+function cahamarperfilUser(){
+  perfilUser.style.display='block'
+}
+/*=====================*/
+function verificarPerfilUser(){
+
+  var nome = document.getElementById('tNome').value
+  
+  alert('Indisponivel no momento')
+}
