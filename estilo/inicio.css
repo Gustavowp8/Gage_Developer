@@ -588,7 +588,7 @@ body{
 
 .confirmarEnter p{
     background: #0085ff;
-    padding: 5px;
+    padding: 10px;
     margin: 10px;
     border-radius: 15px;
     color: #ffffff;
@@ -599,7 +599,7 @@ body{
 .cancelarSair p{
     margin-top: 15px;
     background: red;
-    padding: 5px;
+    padding: 10px;
     margin: 10px;
     border-radius: 15px;
     color: #ffffff;
