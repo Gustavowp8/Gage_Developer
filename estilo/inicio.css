@@ -650,6 +650,33 @@ body{
 
 /*====== aréa popup ======*/
 
+.planosApp{
+    max-width: 800px;
+    margin: auto;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.674);
+}
+.planosApp h2{
+    text-align: center;
+}
+#appSubT{
+    text-align: center;
+}
+
+.appnegoci p{
+    background: #0085ff;
+    text-align: center;
+    font-weight: bold;
+    padding: 5px;
+    margin: 15px;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.674);
+    cursor: pointer;
+}
+
 /*==============*/
 
 
@@ -688,5 +715,8 @@ body{
     .minisitegage2{
         margin: 10px;
         margin-top: 20%;
+    }
+    .planosApp{
+        margin: 10px;
     }
   }

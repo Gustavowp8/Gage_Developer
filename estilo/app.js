@@ -105,3 +105,6 @@ function chamaMiniPlano(){
 function planosMiniSite(){
   location='planos.html'
 }
+function terappCom(){
+  alert('Nosso chat online ainda não esta pronto, por favor clique na guia fale conosco!')
+}
