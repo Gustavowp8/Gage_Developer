@@ -645,7 +645,6 @@ body{
     width: 150px;
 }
 
-
 /*====== mini site ======*/
 
 /*====== aréa popup ======*/
@@ -675,6 +674,20 @@ body{
     border-radius: 15px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.674);
     cursor: pointer;
+}
+
+.miniSiteG{
+    max-width: 800px;
+    margin: auto;
+    background: #ffffff;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.674);
+
+}
+
+.miniSiteG h2{
+    text-align: center;
 }
 
 /*==============*/
@@ -717,6 +730,9 @@ body{
         margin-top: 20%;
     }
     .planosApp{
+        margin: 10px;
+    }
+    .miniSiteG{
         margin: 10px;
     }
   }

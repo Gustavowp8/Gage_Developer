@@ -108,3 +108,6 @@ function planosMiniSite(){
 function terappCom(){
   alert('Nosso chat online ainda não esta pronto, por favor clique na guia fale conosco!')
 }
+function verMinisiteGage(){
+  location='https://gustavowp8.github.io/barbearia/'
+}
