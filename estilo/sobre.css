@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    background: #5808fb;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header img{
+    width: 130px;
+}
+
+.header{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.448);
+
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 5000;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.215);
+}
+.header > div{
+    text-align: center;
+}
+
+.menuBaixo{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.menuBaixo2{
+    background-color: #ffffff10;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    margin: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid #ffffff89;
+    z-index: 5000;
+}
+
+.menuBaixo2 img{
+    width: 30px;
+    height: 30px;
+    transition: all 0.5s;
+  cursor: pointer;
+}
+.menuBaixo2 img:hover{
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+
+#selecionado{
+    border-bottom: 3px solid #5808fb;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.tTituloM{
+    text-align: center;
+}
+.tTituloB{
+  text-align: center;
+  color: white;
+}
+.tenha{
+    /*background: blue;*/
+    max-width: 800px;
+    margin: auto;
+    padding: 5px;
+}
+.tenha1{
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 15px;
+}
+.sobre{
+    margin-top: 90%;
+    max-width: 800px;
+    padding: 10px;
+    background: #FFFFFF;
+    margin: auto;
+    border-radius: 15px;
+    display: block;
+}
+
+.sobre h2{
+    text-align: center;
+}
+
+.fotosmarcas{
+    background: rgba(255, 0, 0, 0);
+    max-width: 400px;
+    text-align: center;
+    margin: auto;
+}
+
+.swiper {
+    width: 300px;
+    height: 300px;
+    z-index: 10;
+    position: relative;
+    /*left: 50%;
+    top: 50%;
+    margin-left: -150px;
+    margin-top: -150px;*/
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    z-index: 10;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    z-index: 5;
+  }
+
+  @media(max-width: 600px){
+   .sobre{
+    margin: 15px;
+   }
+  }

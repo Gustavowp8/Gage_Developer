@@ -5,21 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="arquivos/imagens/logoFavicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="estilo/inicio.css">
+    <link rel="stylesheet" href="estilo/sobre.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <title>Gage Sobre</title>
 </head>
 <body>
-    <header class="header" id="header">
+    
+  <header class="header" id="header">
 
-        <img src="arquivos/imagens/cover.png" alt="logo">
+   <div>
+    <img src="arquivos/imagens/GageNomeSemFundo.png">
+   </div>
+    <div>
+      <h3>O nosso objetivo é simplificar</h3>
+    <p>CNPJ: 45.380.758/0001-30</p>
+    </div>
+
+  </header> <br> <br> <br>  <br> <br> <br> <br>
     
-        <h3>Sobre</h3>
-    
-        <img id="perfil" src="arquivos/icones/do-utilizador.png" alt="perfil">
-    
-      </header>
-    
-<h1>Em manutenção</h1>
+  <div class="sobre">
+
+    <h2>Sobre a Gage</h2>
+
+    <p>
+      Nós temos o objetivo de simplificar a vida de quem empreende ou deseja ser um empreendedor, em tempos atuais onde tudo é digital e online,ter um site ou aplicativo é importante para o seu sucesso. <br> <br>
+
+Nós construímos site de qualidade com design elegante e moderno, com planos exclusivos para quem vai ter o primeiro site, temos planos populares e acessíveis para quem deseja entrar no meio digital da internet pagando pouco, um exemplo disso é o mini site.  <br> <br>
+
+Ficamos localizados em Brasília - DF mas atendemos o Brasil todo, ainda somos uma empresa pequena mas temos a ambição de crescer e no futuro nós tornamos uma empresa de jogos.
+</p>
+<h2>Conheça as nossas marcas</h2>
+     
+
+    <div class="fotosmarcas">
+
+      <div class="swiper mySwiper">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+      <img src="arquivos/imagens/capa01.png" />
+    </div>
+    <div class="swiper-slide">
+      <img src="arquivos/imagens/cover.png" />
+    </div>
+    <div class="swiper-slide">
+      <img src="arquivos/imagens/GageUi.png" />
+    </div>
+    <div class="swiper-slide">
+      <img src="arquivos/imagens/aplicacao.png" />
+    </div>
+  </div>
+  <div class="swiper-pagination"></div>
+</div>
+
+    </div>
+
+    <p>
+      Gage Developer <br> Desenvolvedor de aplicação WEB e aplicativos nativos Android e iOS. <br>
+
+Gage <br>Desenvolvedor de sites estáticos e interativos, responsável por desenvolvimento de blogs e sites de conteúdo pago. <br>
+
+GageUi <br>Desenho de interfaces com boas práticas da internet e design moderno. <br><br>
+<h2> Gage Developer 2022 todos os direito reservados </h2>
+    </p>
+
+  </div> 
+
+
+  </div>
     <br> <br> <br> <br>
 
   <div class="menuBaixo">
@@ -33,6 +85,22 @@
     </div>
   </div>
 
-    <script src="estilo/app.js"></script>
+    <script src="estilo/SobreApp.js"></script> 
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "cube",
+        grabCursor: true,
+        cubeEffect: {
+          shadow: true,
+          slideShadows: true,
+          shadowOffset: 20,
+          shadowScale: 0.94,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
 </body>
 </html>
