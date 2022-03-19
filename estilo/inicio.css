@@ -689,6 +689,71 @@ body{
 .miniSiteG h2{
     text-align: center;
 }
+/*====== Contotos ======*/
+
+.contato img{
+    width: 100px;
+}
+.contato h2{
+    margin-bottom: -10px;
+}
+
+.contato{
+    background: #ffffff;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 5%;
+    padding: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.674);
+    border-radius: 15px;
+    text-align: center;
+}
+
+#tMsg{
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.674);
+    outline: 0;
+    padding: 2px;
+}
+
+.mandar h4{
+    background: black;
+    color: #ffffff;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.iconesCont img{
+    width: 50px;
+}
+
+.iconesCont{
+    display: flex;
+    justify-content: space-around;
+}
+.iconesCont p{
+    margin-top: -4px;
+}
+
+.iconesCont > div{
+    padding: 10px;
+    width: 150px;
+    height: 75px;
+    margin: 10px;
+    border-radius: 15px;
+
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.iconesCont > div:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    border-bottom: 5px solid #00ADEF;
+}
+
+/*====== Contotos ======*/
 
 /*==============*/
 
@@ -734,5 +799,22 @@ body{
     }
     .miniSiteG{
         margin: 10px;
+    }
+    .contato{
+        margin: 10px;
+    }
+    .iconesCont{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .iconesCont img{
+        width: 40px;
+    }
+    
+
+    .iconesCont >div{
+        width: 100px;
+        height: 50;
     }
   }
