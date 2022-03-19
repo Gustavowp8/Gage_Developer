@@ -149,7 +149,7 @@ function msgEnviar(){
   if(msg =='' || nome =='' || tele == ''){
     alert('FALTA DADOS')
   } else{
-    var my_text = `Mensagem so site %0A %0A  ${msg} %0A %0A Nome: ${nome} %0A %0A Telefone: ${tele}`
+    var my_text = `Mensagem do usuario Gage %0A %0A  ${msg} %0A %0A Nome: ${nome} %0A %0A Telefone: ${tele}`
 
   var token = "5101167923:AAHY984g_xsMRbz-m2Bvyz-N_lAgWXBVhwE";
   var chat_id = -1001247274051
@@ -167,7 +167,7 @@ function avisodeUsuario(){
   var entrou = 'Houve acesso'
   console.log(entrou)
 
-  var my_text = `Mensagem so site %0A %0A  ${entrou}`
+  var my_text = `Mensagem do site Gage %0A %0A  ${entrou}`
 
   var token = "5101167923:AAHY984g_xsMRbz-m2Bvyz-N_lAgWXBVhwE";
   var chat_id = -1001247274051
