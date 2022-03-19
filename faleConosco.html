@@ -29,33 +29,35 @@
 
         <div class="iconesCont">
 
-          <div>
+          <div onclick="irFace()">
             <img src="arquivos/icones/logotipo-do-aplicativo-do-facebook.png">
             <p>Facebook</p>
           </div>
 
-          <div>
+          <div onclick="irInsta()">
             <img src="arquivos/icones/instagram.png">
             <p>Instagram</p>
           </div>
 
-          <div>
+          <div onclick="whas()">
             <img src="arquivos/icones/whatsapp.png">
             <p>WhatsApp</p>
           </div>
 
-          <div>
+          <div onclick="emaild()">
             <img src="arquivos/icones/email.png">
-            <p>Email</p>
+            <p>Email</p> 
           </div>
 
         </div> <br>
 
         <h2>Você também pode enviar uma mensagem diretamente por aqui</h2><br>
 
-        <textarea name="Tmsg" id="tMsg" cols="30" rows="10"></textarea> <br>
+        <textarea name="Tmsg" id="tMsg" cols="30" rows="10" placeholder="Digite sua mensagem"></textarea> <br>
+        <input type="text" name="tnome" id="tNome" placeholder="Digite seu nome"> <br>
+        <input type="number" name="tTel" id="tTel" placeholder="Digite seu telefone">
 
-        <div class="mandar">
+        <div class="mandar" onclick="msgEnviar()">
           <h4>Enviar</h4>
         </div>
 

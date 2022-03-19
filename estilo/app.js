@@ -111,3 +111,70 @@ function terappCom(){
 function verMinisiteGage(){
   location='https://gustavowp8.github.io/barbearia/'
 }
+
+/*====== Fale conosco =======*/
+
+function irFace(){
+  var face = confirm('Você deseja ir para a Pagina do Facebook ?')
+  if(face == true){
+    location='https://www.facebook.com/gustafloja'
+  }
+}
+
+function irInsta(){
+  var insta = confirm('Você deseja ir para a Pagina do Instagram ?')
+  if(insta == true){
+    location='https://instagram.com/gage_developer?utm_medium=copy_link'
+  }
+}
+
+
+function whas(){
+  var whast = confirm('Você sera direcionado para o WhatsApp deseja continua ?')
+  if(whast == true){
+    location='https://wa.me/556135752752?text=Tenho+duvidas%2C+'
+  }
+}
+
+function emaild(){
+ alert('O email GAGE e o gagedeveloper@gmail.com')
+}
+
+function msgEnviar(){
+  
+  var msg = document.getElementById('tMsg').value
+  var nome = document.getElementById('tNome').value
+  var tele = document.getElementById('tTel').value
+
+  if(msg =='' || nome =='' || tele == ''){
+    alert('FALTA DADOS')
+  } else{
+    var my_text = `Mensagem so site %0A %0A  ${msg} %0A %0A Nome: ${nome} %0A %0A Telefone: ${tele}`
+
+  var token = "5101167923:AAHY984g_xsMRbz-m2Bvyz-N_lAgWXBVhwE";
+  var chat_id = -1001247274051
+  var url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${my_text}`
+
+  let api = new XMLHttpRequest();
+  api.open("GET", url, true);
+  api.send();
+
+  alert('Mensagem enviada!')
+  }
+}
+
+function avisodeUsuario(){
+  var entrou = 'Houve acesso'
+  console.log(entrou)
+
+  var my_text = `Mensagem so site %0A %0A  ${entrou}`
+
+  var token = "5101167923:AAHY984g_xsMRbz-m2Bvyz-N_lAgWXBVhwE";
+  var chat_id = -1001247274051
+  var url = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=${my_text}`
+
+  let api = new XMLHttpRequest();
+  api.open("GET", url, true);
+  api.send();
+}
+/*====== Fale conosco =======*/

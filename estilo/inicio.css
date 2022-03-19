@@ -714,6 +714,11 @@ body{
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.674);
     outline: 0;
     padding: 2px;
+    border: none;
+}
+
+.mandar{
+    cursor: pointer;
 }
 
 .mandar h4{
@@ -745,6 +750,16 @@ body{
 
     transition: all 0.5s;
     cursor: pointer;
+}
+
+#tTel{
+    border: none;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.674);
+    outline: 0;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .iconesCont > div:hover{
