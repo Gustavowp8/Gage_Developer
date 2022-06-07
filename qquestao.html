@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="arquivos/imagens/logoFavicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilo/qquestao.css">
+    <title>Painel</title>
+</head>
+<body>
+    
+    <header class="header">
+
+        <h3>Gage painel</h3>
+
+       <div class="menu">
+        <p onclick="irNomal()">Site Desconectado</p>
+        <p onclick="irSite()">Site Conectado</p>
+        <p onclick="irDash()">Dashboard</p>
+        <p onclick="chamagrafi()">Hospedagem</p>
+       </div>
+
+    </header>
+
+    <div class="info">
+        <h1 id="tTitulo">Informações de sistema</h1><br><br>
+
+        <h3>Conexão:</h3> <p>estável:  IP é: 172.71.16.180</p> <br><br>
+        <h3>Domínio:</h3>
+        <p>qlegis.com.br</p> <p><strong>fornecedor > godaddy</strong></p> <br><br>
+        <h3>Application Programming Interface</h3> <p>MercadoPago.api.scharp = nodeJS</p> <br><br>
+
+        <div class="infoDois">
+            <h2>Problemas identificado</h2>
+            <ul>
+                <li>* Sem conexão com o banco de dados</li>
+                <li>* Autenticação não responde usuário </li>
+            </ul><br>
+            <button onclick="chamado()">abrir chamado</button>
+        </div>
+
+    </div>
+
+   <div class="mgratfico" id="mgratfico">
+
+    <div class="hosp">
+
+        <div class="fecha" onclick="fechagre()">FECHAR</div>
+
+        <h1 id="tTitulo">Informações Hospedagem</h1>
+        <p id="tsTitulo">Hospedagem atual 500 - GB</p> <br>
+
+        <div class="grafico">
+
+            <canvas id="myChart"></canvas>
+
+        </div>
+
+        <h5>Valor gerado: <strong>R$ 0,00</strong></h5>
+        <h5>Valor do MÊS:
+            <strong>R$ 0,00</strong>
+        </h5>
+        <h5>Assinatura: <strong> ANUAL validade 02/02/2023</strong></h5>
+
+    </div>
+
+   </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="estilo/graf.js"></script>
+</body>
+</html>

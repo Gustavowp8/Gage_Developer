@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: #dfdede;
+}
+
+.header{
+    background: #012030;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.header p{
+    padding: 10px;
+    cursor: pointer;
+}
+
+.header p:hover{
+    background: #13678A;
+}
+
+.infoDois button{
+    padding: 5px;
+}
+
+.menu{
+    display: flex;
+}
+
+.info{
+    background: #ffffff;
+    max-width: 800px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.infoDois{
+    border: 2px solid red;
+    padding: 5px;
+    display: block;
+}
+
+.mgratfico{
+    display: none;
+    background: #0120304e;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#tTitulo{
+    text-align: center;
+}
+#tsTitulo{
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+
+.hosp{
+    background: #ffffff;
+    max-width: 900px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+    margin-top: 5%;
+}
+.grafico{
+    width: 400px;
+    margin: auto;
+}
+
+.fecha{
+    background: red;
+    padding: 5px;
+    width: 100px;
+    color: #ffffff;
+    text-align: center;
+    cursor: pointer;
+}

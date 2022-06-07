@@ -92,8 +92,18 @@ function cahamarperfilUser(){
 function verificarPerfilUser(){
 
   var nome = document.getElementById('tNome').value
-  
-  alert('Indisponivel no momento')
+
+  const usuario = document.getElementById('tNome').value
+  const senha = document.getElementById('cSenha').value
+
+  if(usuario == ''|| senha == ''){
+    alert('verifique os dados')
+  }else if(usuario == 'marcos5759' || senha == '36378117'){
+    alert('LOGADO')
+    location='qquestao.html'
+  }else{
+    alert('Indisponivel')
+  }
 }
 
 function fecharpMINIS(){
